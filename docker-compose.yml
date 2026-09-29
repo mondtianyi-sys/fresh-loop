@@ -31,6 +31,9 @@ services:
       APP_ENV: development
       DATABASE_URL: postgresql+asyncpg://freshloop:freshloop@postgres:5432/freshloop
       REDIS_URL: redis://redis:6379/0
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://dashscope.aliyuncs.com/compatible-mode/v1}
+      LLM_MODEL: ${LLM_MODEL:-qwen-turbo}
     ports:
       - "8000:8000"
     volumes:
@@ -57,4 +60,3 @@ volumes:
   postgres-data:
   redis-data:
   frontend-node-modules:
-

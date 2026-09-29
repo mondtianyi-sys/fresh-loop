@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:admin": "vite --host 127.0.0.1 --port 5174 --open /admin.html",
     "build": "vue-tsc -b && vite build",
     "type-check": "vue-tsc --build --force"
   },
@@ -12,8 +13,7 @@
     "@vitejs/plugin-vue": "latest",
     "vite": "latest",
     "vue": "latest",
-    "typescript": "latest",
+    "typescript": "~5.9.3",
     "vue-tsc": "latest"
   }
 }
-

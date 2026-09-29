@@ -1,0 +1,28 @@
+:root {
+  --green: #496b82;
+  --green-dark: #36566d;
+  --mint: #eef3f5;
+  --line: #e5e0d8;
+  --muted: #7b7770;
+  color: #2b3740;
+  background: #fbf8f3;
+}
+
+.brand-panel { background: #496b82; }
+.brand-panel .eyebrow { color: #e7d6c5; }
+.brand-panel > p:not(.eyebrow) { color: #edf0ed; }
+.brand-stats { color: #dde5e5; }
+.eyebrow { color: #5e7e92; }
+.sidebar { background: #354e60; }
+.avatar { background: #7390a1; }
+.sidebar nav button { color: #d6e0df; }
+.user-block small, .user-block button { color: #c3d0d0; }
+.toast { background: #3a5d72; }
+.panel-heading > span { background: #f7f1e9; }
+.tag { background: #f5eee5; color: #826b5a; }
+.small-button { background: #edf3f5; color: #496b82; }
+.event-dot.inbound, .consume-bar, .consume-dot { background: #7092a5; }
+.event-value.positive, .plan-good, .status-tag.confirmed { color: #59788a; }
+.status-tag.confirmed { background: #edf2ec; }
+.citation { background: #f8f2e9; }
+input:focus, select:focus, .receipt-fields textarea:focus { border-color: #89a0ad; box-shadow: 0 0 0 3px #7e99a81c; }
